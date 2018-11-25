@@ -1,0 +1,11 @@
+{
+  "name": "insomnia-plugin-nord-theme",
+  "version": "1.0.0",
+  "main": "plugin.js",
+  "insomnia": {
+    "name": "nord-theme",
+    "description": "Nord theme by arcticicestudio"
+  },
+  "dependencies": [],
+  "devDependencies": []
+}
