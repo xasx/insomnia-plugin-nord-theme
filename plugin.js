@@ -6,11 +6,11 @@ module.exports.themes = [
             background: {
                 default: '#2e3440',
                 success: '#a3be8c',
-                notice: '#81a1c1',
+                notice: '#8fbcbb',
                 warning: '#ebcb8b',
                 danger: '#bf616a',
                 surprise: '#b48ead',
-                info: '#4c566a'
+                info: '#88c0d0'
             },
             foreground: {
                 default: '#e5e9f0'
@@ -26,10 +26,10 @@ module.exports.themes = [
                 },
                 dialog: {
                     background: {
-                        default: '#d8dee9'
+                        default: '#434c5e'
                     },
                     foreground: {
-                        default: '#2e3440'
+                        default: '#e5e9f0'
                     }
                 },
                 sidebar: {
@@ -82,10 +82,10 @@ module.exports.themes = [
                         info: '{{ styles.sidebar.background.info }}'
                     },
                     foreground: {
-                        default: '#eceff4'
+                        default: '#e5e9f0'
                     },
                     highlight: {
-                        default: '#88c0d0'
+                        default: '#eceff4'
                     }
                 }
             }
