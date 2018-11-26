@@ -10,7 +10,7 @@ module.exports.themes = [
                 warning: '#ebcb8b',
                 danger: '#bf616a',
                 surprise: '#b48ead',
-                info: '#eceff4'
+                info: '#4c566a'
             },
             foreground: {
                 default: '#e5e9f0'
@@ -26,7 +26,7 @@ module.exports.themes = [
                 },
                 dialog: {
                     background: {
-                        default: '#e5e9f0'
+                        default: '#d8dee9'
                     },
                     foreground: {
                         default: '#2e3440'
@@ -51,10 +51,10 @@ module.exports.themes = [
                 },
                 sidebarHeader: {
                     background: {
-                        default: '#81a1c1'
+                        default: '#4c566a'
                     },
                     foreground: {
-                        default: '#4c566a'
+                        default: '#eceff4'
                     }
                 },
                 paneHeader: {
