@@ -13,7 +13,8 @@ module.exports.themes = [
                 info: '#88c0d0'
             },
             foreground: {
-                default: '#e5e9f0'
+                default: '#e5e9f0',
+                info: '#5e81ac'
             },
             styles: {
                 transparentOverlay: {
