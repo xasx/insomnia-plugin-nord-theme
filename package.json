@@ -5,7 +5,7 @@
         "name": "xasx",
         "email": "as.maps@gmail.com"
     },
-    "description": "Nord theme for Insomnia",
+    "description": "Nord themes for Insomnia",
     "homepage": "https://github.com/xasx/insomnia-plugin-nord-theme",
     "license": "MIT",
     "main": "plugin.js",
