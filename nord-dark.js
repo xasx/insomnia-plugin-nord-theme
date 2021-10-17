@@ -59,10 +59,10 @@ module.exports = {
             },
             paneHeader: {
                 foreground: {
-                    default: '#434c5e'
+                    default: '#d8dee9'
                 },
                 background: {
-                    default: '#e5e9f0',
+                    default: '#2e3440',
                     success: '#a3be8c',
                     notice: '#81a1c1',
                     warning: '#ebcb8b',
