@@ -1,3 +1,13 @@
+const sidebarBackground = {
+    default: '#2e3440',
+    success: '#a3be8c',
+    notice: '#81a1c1',
+    warning: '#ebcb8b',
+    danger: '#bf616a',
+    surprise: '#b48ead',
+    info: '#eceff4'
+}
+
 module.exports = {
     name: 'nord-dark',
     displayName: 'Nord (dark)',
@@ -33,15 +43,7 @@ module.exports = {
                 }
             },
             sidebar: {
-                background: {
-                    default: '#2e3440',
-                    success: '#a3be8c',
-                    notice: '#81a1c1',
-                    warning: '#ebcb8b',
-                    danger: '#bf616a',
-                    surprise: '#b48ead',
-                    info: '#eceff4'
-                },
+                background: sidebarBackground,
                 foreground: {
                     default: '#e5e9f0'
                 },
@@ -73,13 +75,8 @@ module.exports = {
             },
             pane: {
                 background: {
+                    ...sidebarBackground,
                     default: '#2e3440',
-                    success: '{{ styles.sidebar.background.success }}',
-                    notice: '{{ styles.sidebar.background.notice }}',
-                    warning: '{{ styles.sidebar.background.warning }}',
-                    danger: '{{ styles.sidebar.background.danger }}',
-                    surprise: '{{ styles.sidebar.background.surprise }}',
-                    info: '{{ styles.sidebar.background.info }}'
                 },
                 foreground: {
                     default: '#e5e9f0'
