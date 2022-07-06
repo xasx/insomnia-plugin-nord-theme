@@ -1,3 +1,13 @@
+const sidebarBackground = {
+    default: '#eceff4',
+    success: '#a3be8c',
+    notice: '#81a1c1',
+    warning: '#ebcb8b',
+    danger: '#bf616a',
+    surprise: '#b48ead',
+    info: '#434c5e',
+}
+
 module.exports = {
     name: 'nord-light',
     displayName: 'Nord (light)',
@@ -33,15 +43,7 @@ module.exports = {
                 }
             },
             sidebar: {
-                background: {
-                    default: '#eceff4',
-                    success: '#a3be8c',
-                    notice: '#81a1c1',
-                    warning: '#ebcb8b',
-                    danger: '#bf616a',
-                    surprise: '#b48ead',
-                    info: '#434c5e'
-                },
+                background: sidebarBackground,
                 foreground: {
                     default: '#3b4252'
                 },
@@ -74,13 +76,8 @@ module.exports = {
             },
             pane: {
                 background: {
+                    ...sidebarBackground,
                     default: '#eceff4',
-                    success: '{{ styles.sidebar.background.success }}',
-                    notice: '{{ styles.sidebar.background.notice }}',
-                    warning: '{{ styles.sidebar.background.warning }}',
-                    danger: '{{ styles.sidebar.background.danger }}',
-                    surprise: '{{ styles.sidebar.background.surprise }}',
-                    info: '{{ styles.sidebar.background.info }}'
                 },
                 foreground: {
                     default: '#2e3440',
